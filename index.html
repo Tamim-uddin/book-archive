@@ -8,8 +8,16 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
 </head>
 <body>
-    <h2>Search Your Book</h2>
-
+    <h2 class="text-center text-info">Joshim Book House</h2>
+    <!-- search book -->
+    <div class="input-group mb-3 mx-auto w-50">
+        <input id="search-field" type="text" class="form-control" placeholder="Enter A Book Name" aria-label="Recipient's username" aria-describedby="button-addon2">
+        <button onclick="loadbook()" class="btn btn-outline-secondary" type="button" id="search-button">Search</button>
+      </div>
+      
+      <!-- display book -->
+      <div id="display-result" class="row row-cols-1 row-cols-md-3 g-4">
+      </div>
 
 
 
